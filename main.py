@@ -58,7 +58,7 @@ def build_page():
                 <tr>
                     <td><label for="email">Email (optional)</label></td>
                     <td>
-                        <input name="email" type="email" value="%(email)s"/>
+                        <input name="email" value="%(email)s"/>
                         <span class="error">%(email_error)s</span>
                         <br>
                     </td>
@@ -69,7 +69,7 @@ def build_page():
         </form>
 
 </body></html>"""
-    #
+    #  type='email' will pop screen with error not error msg
     # submit = "<input type='submit' value='Submit'/>"
     # form = ("<form method='post'>" +
     #         rotate_label + rotation_input + "<br>" +
